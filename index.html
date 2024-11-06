@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Store Review Search</title>
+</head>
+<body>
+    <h1>Search Play Store Reviews</h1>
+    <form action="/search" method="get">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+            <option value="Bugs">Bugs</option>
+            <option value="Complaints">Complaints</option>
+            <option value="Crashes">Crashes</option>
+            <option value="Praises">Praises</option>
+            <option value="Other">Other</option>
+        </select>
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
